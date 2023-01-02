@@ -25,6 +25,9 @@
     "vite": "^4.0.3"
   },
   "dependencies": {
+    "@jarlei-ui/react": "*",
+    "@jarlei-ui/tokens": "*",
+    "@jarlei-ui/eslint-config": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
