@@ -1,3 +1,10 @@
 {
-  "extends": "@jarlei-ui/eslint-config"
+  "extends": "@jarlei-ui/eslint-config",
+  "prettier/prettier": [
+    "error",
+    {
+      "singleQuote": true,
+      "parser": "flow"
+    }
+  ]
 }
