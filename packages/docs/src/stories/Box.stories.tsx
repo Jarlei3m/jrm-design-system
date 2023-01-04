@@ -1,4 +1,4 @@
-import { Box, BoxProps } from '@jarlei-ui/react'
+import { Box, BoxProps, Text } from '@jarlei-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
@@ -8,7 +8,7 @@ export default {
   args: {
     children: (
       <>
-        <span>Testing Box element</span>
+        <Text>Testing Box element</Text>
       </>
     )
   },
