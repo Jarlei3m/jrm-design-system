@@ -6,11 +6,7 @@ export default {
   component: Box,
   
   args: {
-    children: (
-      <>
-        <Text>Testing Box element</Text>
-      </>
-    )
+    children: <Text>Testing Box element</Text>
   },
 } as Meta<BoxProps>
 
