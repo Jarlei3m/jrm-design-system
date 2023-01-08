@@ -7,8 +7,15 @@ export default {
   
   args: {
     src: 'https://github.com/Jarlei3m.png',
-    alt: 'Jarlei Rodrigues'
+    alt: 'Avatar picture'
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text'
+      }
+    }
+  }
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
